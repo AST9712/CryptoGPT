@@ -1,10 +1,10 @@
 openapi: 3.0.1
 info:
-    title: Stock Quote
+    title: Stock or Cryptocurrency Quote
     description: Get price and volume information for a given stock or cryptocurrency.
     version: "v1"
 servers:
-    - url: [YOUR_DOMAIN, must be HTTPS]
+    - url: https://cryptogpt-d344343444b2.herokuapp.com
 paths:
     /stock:
         get:

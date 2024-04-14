@@ -1,7 +1,7 @@
 {
     "schema_version": "v1",
-    "name_for_human": "Stock Quote",
-    "name_for_model": "StockQuote",
+    "name_for_human": "CryptoGPT",
+    "name_for_model": "CryptoGPT",
     "description_for_human": "Get price and volume information for a given stock.",
     "description_for_model": "Get price and volume information for a given stock.  Always display results using markdown tables.",
     "auth": {
@@ -9,9 +9,9 @@
     },
     "api": {
         "type": "openapi",
-        "url": "[YOUR_DOMAIN, must be HTTPS]/openapi.yaml"
+        "url": "https://cryptogpt-d344343444b2.herokuapp.com/openapi.yaml"
     },
-    "logo_url": "[YOUR_DOMAIN, must be HTTPS]/logo.png",
-    "contact_email": "support@example.com",
+    "logo_url": "https://cryptogpt-d344343444b2.herokuapp.com/logo.png",
+    "contact_email": "peardigitalagency@gmail.com",
     "legal_info_url": "https://example.com/legal"
 }
