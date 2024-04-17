@@ -4,7 +4,7 @@ info:
     description: Get price and volume information for a given stock or cryptocurrency.
     version: "v1"
 servers:
-    - url: https://cryptogpt-d344343444b2.herokuapp.com
+    - url: "https://cryptogpt-d344343444b2.herokuapp.com"
 paths:
     /stock:
         get:
